@@ -7,9 +7,9 @@ import androidx.annotation.Keep
 @Keep
 data class TeamMember(
     @SerializedName("id")
-    val id: String?,
+    val id: String,
     @SerializedName("name")
-    val name: String?,
+    val name: String,
     @SerializedName("position")
-    val position: String?
+    val position: String
 )
